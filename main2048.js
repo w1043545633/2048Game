@@ -2,12 +2,12 @@
 var board = new Array();
 var score = 0;
 var hasConflicted = new Array();
-var newgamebutton = document.getElementById("newgamebutton");
-newgamebutton.addEventListener("click", newGame, false);
-
 
 
 $(document).ready(function(){
+	var newgamebutton = document.getElementById("newgamebutton");
+	newgamebutton.addEventListener("click", newGame, false);
+
 	newGame();
 });
 
