@@ -215,7 +215,7 @@ function moveLeft(){
 //moveUp
 function moveUp(){
 
-	if( !canMoveUp() ){
+	if( !canMoveUp(board) ){
 		return false;
 	}
 
@@ -254,7 +254,7 @@ function moveUp(){
 //move right
 function moveRight(){
 
-	if( !canMoveRight() ){
+	if( !canMoveRight(board) ){
 		return false;
 	}
 
@@ -292,7 +292,7 @@ function moveRight(){
 // move dowm
 function moveDown(){
 
-	if( !canMoveDown() ){
+	if( !canMoveDown(board) ){
 		return false;
 	}
 
